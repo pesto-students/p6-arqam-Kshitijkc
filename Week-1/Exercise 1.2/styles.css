@@ -4,3 +4,36 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
+
+#center-container {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    width: 97.5%;
+}
+
+#top-container {
+    background-color: blue;
+    display: flex;
+    height: 90vh;
+}
+
+aside {
+    background-color: black;
+    width: 2.5%;
+}
+
+footer {
+    background-color: purple;
+    height: 10vh;
+}
+
+header {
+    background-color: green;
+    height: 45%;
+}
+
+main {
+    background-color: grey;
+    height: 55%;
+}
