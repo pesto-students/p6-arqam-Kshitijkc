@@ -50,7 +50,7 @@
 }
 
 #header_image {
-    height: 30vh;
+    height: 100%;
     margin-right: 5em;
 }
 
@@ -96,12 +96,12 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 45%;
+    height: 43%;
     padding-left: 7.5vh;
     padding-right: 7.5vh;
 }
 
 main {
     background-color: white;
-    height: 55%;
+    height: 57%;
 }
