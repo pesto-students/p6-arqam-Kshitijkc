@@ -12,6 +12,24 @@
     width: 97.5%;
 }
 
+#f-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 1em;
+}
+
+#f-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+#footer_image {
+    height: 100%;
+}
+
 #hc-article>h1 {
     margin-bottom: 0.5em;
 }
@@ -57,7 +75,16 @@ aside {
 
 footer {
     background-color: rgb(66,104,155);
+    color: white;
+    display: flex;
     height: 10vh;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+
+footer>section {
+    display: flex;
+    height: 100%;
 }
 
 h1 {
