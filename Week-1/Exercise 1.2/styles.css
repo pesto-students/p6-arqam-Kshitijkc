@@ -12,10 +12,38 @@
     width: 97.5%;
 }
 
+#hc-article>h1 {
+    margin-bottom: 0.5em;
+}
+
+#hc-article>p {
+   font-size:small;
+}
+
+#header-container {
+    display: flex;
+}
+
+#header-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#header_image {
+    height: 30vh;
+    margin-right: 5em;
+}
+
 #top-container {
     background-color: blue;
     display: flex;
     height: 90vh;
+}
+
+.hc-icons {
+    margin-right: 1em;
 }
 
 aside {
@@ -32,9 +60,18 @@ footer {
     height: 10vh;
 }
 
+h1 {
+    font-size: 1.5em;
+}
+
 header {
     background-color: rgb(69,69,69);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 45%;
+    padding-left: 7.5vh;
+    padding-right: 7.5vh;
 }
 
 main {
