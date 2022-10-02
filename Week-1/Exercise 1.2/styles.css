@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+#center-container {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    width: 97.5%;
+}
+
+#f-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 1em;
+}
+
+#f-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+#footer_image {
+    height: 100%;
+}
+
+#hc-article>h1 {
+    margin-bottom: 0.5em;
+}
+
+#hc-article>p {
+   font-size:small;
+}
+
+#header-container {
+    display: flex;
+}
+
+#header-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#header_image {
+    height: 30vh;
+    margin-right: 5em;
+}
+
+#top-container {
+    background-color: blue;
+    display: flex;
+    height: 90vh;
+}
+
+.cloud-name>p{
+    color: blue;
+    border: 1px solid black;
+    display: inline;
+}
+
+.hc-icons {
+    margin-right: 1em;
+}
+
+aside {
+    background-color: rgb(240,240,240);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 2.5%;
+}
+
+footer {
+    background-color: rgb(66,104,155);
+    color: white;
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+
+footer>section {
+    display: flex;
+    height: 100%;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+header {
+    background-color: rgb(69,69,69);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 43%;
+    padding-left: 7.5vh;
+    padding-right: 7.5vh;
+}
+
+main {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 57%;
+    overflow: scroll;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 25%;
+    padding: 1em;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(240,240,240);;
+}
