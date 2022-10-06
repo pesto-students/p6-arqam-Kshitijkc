@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+}
+
+main > section {
+    margin: 2px;
+    background-color: aqua;
+    height: 200px;
+    flex-grow: 1;
+}
+
+@media screen and (orientation:portrait) {
+    main {
+        flex-direction: column;
+    }
+
+    main > section {
+        width: 100%;
+    }
+}
+
+@media screen and (orientation:landscape) {
+    main {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    main > section {
+        width: 45%;
+    }
+}
