@@ -10,7 +10,12 @@ a {
     text-decoration: none;
 }
 
+body {
+    background-color: rgb(240,240,240);
+}
+
 button {
+    background-color: greenyellow;
     display: block;
     margin-top: 10px;
 }
@@ -27,6 +32,8 @@ form {
 
 header, footer {
     align-items: center;
+    background-color: rgb(50, 50, 100);
+    color: white;
     display: flex;
     flex-direction: column;
     height: 20vh;
@@ -42,7 +49,6 @@ main {
 }
 
 main > section {
-    background-color: aqua;
     flex-grow: 1;
     padding: 30px;
     border-radius: 5px;
@@ -69,6 +75,12 @@ select,  .normal-input {
 
 .checkbox > a {
     display: inline;
+}
+
+#form-title {
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 @media screen and (max-width: 700px) {
