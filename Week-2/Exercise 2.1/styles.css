@@ -10,6 +10,21 @@ a {
     text-decoration: none;
 }
 
+button {
+    display: block;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 header, footer {
     align-items: center;
     display: flex;
@@ -29,13 +44,31 @@ main {
 main > section {
     background-color: aqua;
     flex-grow: 1;
-    padding: 5px;
+    padding: 30px;
     border-radius: 5px;
 }
 
 main > section > img {
     display: block;
     margin: 60px auto 5px;
+    width: 50%;
+}
+
+p {
+    margin-top: 10px;
+}
+
+select,  .normal-input {
+    width: 250px;
+}
+
+.checkbox {
+    margin-top: 10px;
+    display: block;
+}
+
+.checkbox > a {
+    display: inline;
 }
 
 @media screen and (max-width: 700px) {
@@ -56,5 +89,6 @@ main > section > img {
 
     main > section {
         width: 45%;
+        max-width: 50%;
     }
 }
