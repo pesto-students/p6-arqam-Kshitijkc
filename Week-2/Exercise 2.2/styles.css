@@ -19,21 +19,33 @@ p {
 #red {
     background-color: red;
     float: left;
+    transition-property: transform, transform-origin;
+    transition-duration:  1s;
+    transition-timing-function: ease-in-out;
 }
 
 #yellow {
     background-color: yellow;
     float: right;
+    transition-property: transform, transform-origin;
+    transition-duration:  1s;
+    transition-timing-function: ease-in-out;
 }
 
 #blue {
     background-color: blue;
     float: left;
+    transition-property: transform, transform-origin;
+    transition-duration:  1s;
+    transition-timing-function: ease-in-out;
 }
 
 #green {
     background-color: green;
     float: right;
+    transition-property: transform, transform-origin;
+    transition-duration:  1s;
+    transition-timing-function: ease-in-out;
 }
 
 #main {
@@ -43,3 +55,22 @@ p {
     left: calc(50vw - 100px);
 }
 
+#main:hover > #red {
+    transform: rotate(90deg);
+    transform-origin: top left;
+}
+
+#main:hover > #yellow {
+    transform: rotate(-90deg);
+    transform-origin: top right;
+}
+
+#main:hover > #blue {
+    transform: rotate(-90deg);
+    transform-origin: bottom left;
+}
+
+#main:hover > #green {
+    transform: rotate(90deg);
+    transform-origin: bottom right;
+}
