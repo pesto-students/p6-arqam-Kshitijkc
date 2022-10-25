@@ -16,35 +16,35 @@ p {
     height: 100px;
 }
 
-#red {
+.red {
     background-color: rgb(242,79,29);
     transition-property: transform, transform-origin;
     transition-duration:  1s;
     transition-timing-function: ease-in-out;
 }
 
-#yellow {
+.yellow {
     background-color: rgb(255,186,0);
     transition-property: transform, transform-origin;
     transition-duration:  1s;
     transition-timing-function: ease-in-out;
 }
 
-#blue {
+.blue {
     background-color: rgb(0,165,239);
     transition-property: transform, transform-origin;
     transition-duration:  1s;
     transition-timing-function: ease-in-out;
 }
 
-#green {
+.green {
     background-color: rgb(128,187,0);
     transition-property: transform, transform-origin;
     transition-duration:  1s;
     transition-timing-function: ease-in-out;
 }
 
-#main {
+.main {
     display: flex;
     flex-wrap: wrap;
     position: absolute;
@@ -53,22 +53,22 @@ p {
     left: calc(50vw - 100px);
 }
 
-#main:hover > #red {
+.main:hover > .red {
     transform: rotate(90deg);
     transform-origin: top left;
 }
 
-#main:hover > #green {
+.main:hover > .green {
     transform: rotate(-90deg);
     transform-origin: top right;
 }
 
-#main:hover > #blue {
+.main:hover > .blue {
     transform: rotate(-90deg);
     transform-origin: bottom left;
 }
 
-#main:hover > #yellow {
+.main:hover > .yellow {
     transform: rotate(90deg);
     transform-origin: bottom right;
 }
