@@ -100,3 +100,19 @@ add6();
 let add7 = add.bind({a:1, b:2}, 3, 4)
 add7();
 
+// .call() examples
+run = 0;
+
+document.write("<h1>.call() - regular add examples</h1>")
+
+add.call();
+
+add.call(null);
+
+add.call(null, 1);
+
+add.call(null, 1, 2);
+
+add.call({}, 1, 2);
+
+add.call({a:1, b:2}, 3, 4);
