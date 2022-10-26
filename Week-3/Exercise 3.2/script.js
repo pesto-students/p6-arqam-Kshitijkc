@@ -116,3 +116,29 @@ add.call(null, 1, 2);
 add.call({}, 1, 2);
 
 add.call({a:1, b:2}, 3, 4);
+
+// .apply() examples
+run = 0;
+
+document.write("<h1>.apply() - regular add examples</h1>")
+
+let numList = null;
+
+add.apply();
+
+add.apply(null);
+
+add.apply(null, numList);
+
+numList = [];
+add.apply(null, numList);
+
+numList = [3];
+add.apply(null, numList);
+
+numList = [3, 4];
+add.apply(null, numList);
+
+add.apply({}, numList);
+
+add.apply({a:1, b:2}, numList);
